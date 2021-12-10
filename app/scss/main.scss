@@ -1,0 +1,115 @@
+
+@import 'guessNumber';
+
+.body{
+    background-color: rgb(197, 199, 195);
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s all ease-out;
+}
+.bodyBlack{
+    background-color: rgb(15, 15, 15);
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.window{
+    background: rgb(206, 206, 206);
+    background: radial-gradient(circle, rgb(68, 68, 68) 25%, rgb(117, 116, 116) 34%);
+    line-height: 200px;
+    min-height: 100px;
+    text-align: center;
+    padding: 20px 20px;
+    border-radius: 10px;
+    align-content: center;
+    text-shadow: 0px 10px 5px honeydew ;
+    color: rgb(252, 252, 252);
+    font-size: 40px;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-weight: 600;
+}
+.inner__cone{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid dodgerblue;
+    transition: 0.4s all ease-out;
+
+}
+.label{
+    margin:0 5px;
+    transition: 1s all ease-out;
+}
+.whiteText{
+    color: white;
+}
+.btn{
+    background-color: rgb(255, 0, 0);
+    outline: none;
+    border: none;
+    color: white;
+    transition: all 0.4s ease-in-out;
+    border-radius: 10px;
+    padding: 4px 10px;
+    cursor: pointer;
+   
+    &:hover{
+        transform: translateY(-5px);
+        box-shadow: 0 5px 5px black;
+    }
+    &:active{
+        transform: translateY(0px);
+        box-shadow: 0 0px 0px black;
+    }
+}
+.main__title{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    transition: 1s all ease-out;
+    cursor: pointer;
+    &:hover{
+        text-shadow: 0 5px 0 black;
+        
+    }
+    &:active{
+        text-shadow: 0 0px 0 black;
+    }
+}
+.shadowWhite{
+    &:hover{
+        text-shadow: 0 12px 6px rgb(255, 255, 255);
+    }
+    :active{
+        text-shadow: 0 2px 6px rgb(255, 255, 255);
+    }
+}
+.white{
+    background-color: dodgerblue;
+    &:hover{
+        box-shadow: 0px 5px 2px white;
+    }
+    &:active{
+        box-shadow: 0px 0px 0px rgb(94, 42, 42);
+    } 
+}
+.red{
+    border: 1px solid red;
+}
+.link{
+    
+    display: inline-block;
+}
+.wrapper__link{
+    display: block;
+    text-align: right;
+}

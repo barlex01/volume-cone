@@ -1,0 +1,26 @@
+body{
+    background-color: white;
+    min-height: 100vh;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+.white{
+    color: white;
+}
+// .wrapper{
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+// }
+.wrapper__input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center{
+    text-align: center;
+}
